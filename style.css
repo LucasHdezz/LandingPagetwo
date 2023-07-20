@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: open sans, sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: -.2px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 15%;
+    position: fixed;
+    z-index: 100;
+  }
+
+.nav li a{
+    background:white;
+    color: black;
+    text-decoration: none;
+    padding:10px 15px;
+    height: 50px;   
+    display: block;
+    font-family: work sans, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav li a:hover{
+    background-color: rgb(68, 38, 238);
+    color: white;
+    
+}
+
+.nav > li {
+    float: left;
+}
+
+.nav li ul{
+    display:none;
+    position: absolute;
+    min-width: 250px;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+.header-right .menu-btn {
+    display: inline-block;
+    background: rgb(0, 2, 128);
+    color: #fff;
+    font-family: work sans, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 35px;
+    letter-spacing: 0;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    transition: all ease 700ms;
+    -moz-transition: all ease 700ms;
+    text-decoration: none;
+}
+
+.padding {
+    padding: 100px 0;
+}
+
+.container {
+    max-width: 720px;
+}
+
+
+ul {
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+.about-info li i {
+    color: #345ead;
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+.gallery{
+    background: #f2f2f2;
+}
+
+.contenedor-galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.img-galeria{
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    height: 210px;
+}
+
+.imagen-light{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.534);
+    transform: translate(100%);
+    transition: transform .2s ease-in-out;
+}
+
+.agregar-imagen{
+    width: 60%;
+    transform: scale(0);
+    border-radius: 10px;
+    transition: transform .3s .2s;
+}
+
+.showImage{
+    transform: scale(1);
+}
+
+.show{
+    transform: translate(0);
+}
+
+.default-btn {
+    display: inline-block;
+    background: rgb(0, 2, 128);
+    color: #fff;
+    font-family: work sans, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 35px;
+    letter-spacing: 0;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    transition: all ease 700ms;
+    -moz-transition: all ease 700ms;
+    text-decoration: none;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.tra-section {
+    background-image: url(imagenes/imagen3.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+
+.padding {
+    padding: 100px 0;
+}
+::selection {
+    background-color: #34ad54;
+    color: #fff;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+.t3m-bg-gray-600 {
+    --tw-bg-opacity: 1;
+    background-color:rgb(90 150 150/var(--tw-bg-opacity));
+    padding: auto;
+    height: 150px;
+}
+
+
+#footer{
+    background-image: url(imagenes/imagen3.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0px;
+}
+footer{
+    background: #9f8ad0;
+    padding-bottom: 0.1px;
+}
+
+.footer contact-us{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 60px;
+}
+
+
