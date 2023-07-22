@@ -197,13 +197,7 @@ a, a:hover {
     text-align: center;
 }
 
-.padding {
-    padding: 100px 0;
-}
-::selection {
-    background-color: #34ad54;
-    color: #fff;
-}
+
 
 body {
     margin: 0;
