@@ -118,6 +118,11 @@ dl, ol, ul {
     font-size: 15px;
 }
 
+.about-img{
+   display: flex;
+   justify-content: 100px;
+   align-items: right;
+}
 
 .gallery{
     background: #f2f2f2;
@@ -260,4 +265,29 @@ body {
     margin-bottom: 60px;
 }
 
+.social-media{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.social-media-icon:hover{
+    background: #fff;
+    color: #345ead;
+}
+
+.social-media-icon i{
+    font-size: 50px;
+    line-height: 60px;
+}
