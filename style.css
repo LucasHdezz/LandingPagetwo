@@ -184,6 +184,7 @@ dl, ol, ul {
     transition: all ease 700ms;
     -moz-transition: all ease 700ms;
     text-decoration: none;
+    cursor:pointer;
 }
 
 a, a:hover {
