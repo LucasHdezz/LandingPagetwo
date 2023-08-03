@@ -371,13 +371,17 @@ a, a:hover {
         }
     
     .img-doc{
-        width: 245px;
+        width: 410px;
         }
     
     .texto-doc{
         text-align: justify;
     }
     
+    .texto{
+        text-align: center;
+    }
+
     .contenedor-galeria{
         width: 490px;
         }  
