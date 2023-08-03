@@ -282,21 +282,7 @@ a, a:hover {
 
 /* Responsive */
 
-@media screen and (max-width:800px){
-    *{
-        padding: 0;
-        margin: 0;
-        }
-    
-
-    .header {
-            background: rgb(255, 255, 255);
-            width: 0%;
-            height: 5%;
-            position: fixed;
-            z-index: 100;
-            cursor: pointer;
-          }
+@media (max-width:800px){
   
     .cta-btn{
         width: 0px;
@@ -306,18 +292,33 @@ a, a:hover {
     }
     
     .img-doc{
-        width: 530px;
+        width: 420px;
         }
     
     .texto-doc{
         text-align: justify;
     }
+
+    .texto{
+        text-align: center;
+    }
+
     
     .contenedor-galeria{
-        width: 700px;
+        width: 500px;
         }  
+
+    .img-galeria{
+            padding: 10px;
+            width: 490px;
+            display:flexbox;
+            margin-bottom: 25px;
+            cursor: pointer;
+            height: 250px;
+        }
+
     .consultas{
-       width: 435px;
+       width: 490px;
         }
     
     .texto-doc{
@@ -325,14 +326,12 @@ a, a:hover {
     }
     
     .logo{
-        width: 450px;
-        height: 250px;
-        padding: 5px 10px;
-    
+        width: 480px;
+        height: 180px;
        }
     
        .social-media{
-        width: 650px;
+        width: 450px;
         justify-content: center;
     }
     
