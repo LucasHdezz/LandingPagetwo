@@ -30,7 +30,7 @@ header {
   }
 
   .carousel-item{
-    min-height: 620px;
+    min-height: 615px;
     background-size: cover;
   }
 
@@ -86,7 +86,7 @@ header {
 .carousel{
     background-size: cover;
     background-position: center center;
-    height: calc(100vh -80px);
+    height: calc(100vh -79px);
 }
 
 .header-right {
@@ -137,10 +137,24 @@ dl, ol, ul {
     font-size: 15px;
 }
 
-.about-img{
-   display: flex;
-   justify-content: 100px;
-   align-items: right;
+.carousel-inner h1{
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    top: 63%;
+    left: 54%;
+    transform: translate(50%, 50%);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.623);
+}
+
+.carousel-item p{
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    top: 3%;
+    left: 55.4%;
+    transform: translate(50%, 50%);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.623);
 }
 
 .img-doc{
@@ -159,12 +173,12 @@ dl, ol, ul {
     justify-content: space-evenly;
     width: 435px;
     height: 30px;
-    box-shadow: 0 0 6px rgba(20, 53, 238, 0.705);
+    box-shadow: 0 0 6px rgba(1, 2, 10, 0.705);
     cursor: pointer;
    
 }
 .contenedor-galeria{
-    padding: 16px;
+    padding: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -175,7 +189,7 @@ dl, ol, ul {
     width: 435px;
     display:flexbox;
     margin-bottom: 25px;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.623);
     cursor: pointer;
     height: 250px;
 }
@@ -379,9 +393,7 @@ a, a:hover {
 @media screen and (max-width: 400px){
 
     .logo-dark{
-       padding: 0;
-       height: 50px;
-       min-width: 140%;
+       max-width: 90%;
              
     }
 
@@ -407,6 +419,24 @@ a, a:hover {
         min-height: 320px;
         background-size: cover;
       }
+
+    .carousel-inner h1{
+        font-size: 1.5rem;
+        top: 80%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    }
+    
+    .carousel-item p{
+        font-size: 1rem;
+        top: 80%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    }
     .nav li a{
         padding: 45%;
         width: 100%;
