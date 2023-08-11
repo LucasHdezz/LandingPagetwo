@@ -172,15 +172,22 @@ dl, ol, ul {
     text-align: justify;
 }
 
+.subtitulo{
+    text-align: center;
+    height: 60px;
+}
+
 .gallery{
-    background: #f0f0f7ec;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    background: #0639699d;
 }
 
 .consultas{
     justify-content: space-evenly;
     width: 435px;
     height: 30px;
-    box-shadow: 0 0 6px rgba(1, 2, 10, 0.705);
+    box-shadow: 0 0 6px rgba(244, 244, 245, 0.705);
     cursor: pointer;
    
 }
@@ -196,24 +203,9 @@ dl, ol, ul {
     width: 435px;
     display:flexbox;
     margin-bottom: 25px;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.623);
+    box-shadow: 0 0 6px rgba(243, 242, 242, 0.623);
     cursor: pointer;
     height: 250px;
-}
-
-.agregar-imagen{
-    width: 60%;
-    transform: scale(0);
-    border-radius: 10px;
-    transition: transform .3s .2s;
-}
-
-.showImage{
-    transform: scale(1);
-}
-
-.show{
-    transform: translate(0);
 }
 
 .default-btn {
@@ -332,72 +324,8 @@ a, a:hover {
 
                 /* Responsive */
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 780px){
   
-    .cta-btn{
-        width: 0px;
-        height: 100px;
-        line-height: px;
-        padding: 10px 80px;
-    }
-    
-    .img-doc{
-        width: 350px;
-        }
-    
-    .texto-doc{
-        text-align: justify;
-    }
-
-    .texto{
-        text-align: center;
-    }
-
-    
-    .contenedor-galeria{
-        width: 100%;
-        }  
-
-    .img-galeria{
-            padding: 2%;
-            width: 100%;
-            display:flexbox;
-            margin-bottom: 10%;
-            cursor: pointer;
-            height: 80%;
-        }
-        
-    .consultas{
-       width: 100%;
-        }
-    
-    .texto-doc{
-        text-align: center;
-    }
-    
-    .logo{
-        width: 100%;
-        height: 80%;
-       }
-    
-       .social-media{
-        width: 95%;
-        justify-content: center;
-    }
-    
-    .social-media-icon{
-        display: inline-block;
-        margin-left: 5%;
-        width: 11%;
-        height: 2%;
-    }
-    .social-media-icon i{
-        font-size: 290%;
-        line-height: 110%;
-    }
-    }
-    
-@media screen and (max-width: 400px){
     header {
        
         height: 10%;
@@ -415,7 +343,7 @@ a, a:hover {
         height: 100vh;
         background: #920dac;
         top: 90px;
-        left: -100%;
+        left: -200%;
     }
 
     .default-btn{
@@ -423,8 +351,122 @@ a, a:hover {
     }
 
     .checkbtn{
+        display: none;
+
+    }
+
+    #carousel{
+        padding-top: 20%;
+    }
+
+    .carousel-item{
+        min-height: 650px;
+        background-size: cover;
+      }
+
+    .carousel-inner h1{
+        font-size: 1.5rem;
+        top: 80%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    }
+    
+    .carousel-item p{
+        font-size: 1.2rem;
+        top: 75%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    }
+    .nav li a{
+        padding: 85%;
+        width: 200%;
+        height: 20%;   
+        font-size: 88%;
+        
+    }
+    
+    .cta-btn{
+            display: block;
+        }
+    
+    .img-doc{
+        width: 100%;
+        align-items: center;
+        }
+    
+    .texto-doc{
+        text-align: justify;
+    }
+    
+    .texto{
+        text-align: center;
+    }
+
+    .contenedor-galeria{
+        width: 75%;
+        }  
+    
+    .img-galeria{
+            padding: 2%;
+            width: 135%;
+            height: 80%;
+            cursor: pointer;
+        }
+
+    .consultas{
+       width: 135%;
+        }
+    
+    .logo{
+        width: 100%;
+        min-height: 0 100%;
+        padding-right: 50%;
+
+       }
+    
+    .social-media{
+        width: 95%;
+        justify-content: center;
+    }
+    
+    .social-media-icon{
+        display: inline-block;
+        width: 9%;
+        height: 5%;
+    }
+    }
+    
+@media screen and (max-width: 500px){
+    
+    .logo-dark{
+        max-width: 55%;
+        max-height: 20%;     
+    }
+
+    
+    .checkbtn{
         display: block;
 
+    }
+
+    menu{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: #920dac;
+        top: 100%;
+        right: 0px;
+        /* left: -100%; */
+        text-align: center;
+        transition: all .5s;
+    }
+    
+    .default-btn{
+        display: none;
     }
 
     #carousel{
@@ -493,9 +535,8 @@ a, a:hover {
        width: 135%;
         }
     
-    .logo{
-        width: 101%;
-        height: 90%;
+    .logo{ 
+        position: fixed;
        }
     
     .social-media{
