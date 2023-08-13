@@ -4,13 +4,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Otorrinolaringólogo En Monterrey</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  
 </head>
 
 <body>
+  <div class="lds-spinner loader" id="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
   <!-- Barra de navegación -->
   <header>
     <div class="container">
@@ -67,13 +72,15 @@
     </div>
   </header>
   <!-- Sliders -->
-  <div id="carousel"class="carousel slide" data-bs-ride="carousel">
+  <div id="carousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active" style="background-image: url(imagenes/scroll1.png);">
-      <h1 style="line-height: 100%"><strong>OTORRINOLARINGÓLOGO <br> EN MONTERREY <br> ESPECIALISTA EN <br> PADECIMIENTOS <br> DE LOS OíDOS</strong></h1>
+        <h1 style="line-height: 100%"><strong>OTORRINOLARINGÓLOGO <br> EN MONTERREY <br> ESPECIALISTA EN <br>
+            PADECIMIENTOS <br> DE LOS OíDOS</strong></h1>
       </div>
       <div class="carousel-item" style="background-image: url(imagenes/scroll2.png);">
-        <p style="line-height: 100%" ><strong>ESPECIALISTA <br> EN RINOPLASTÍA <br> Y CIRUJÍA DE NARIZ<br>LOGRA UNA APARIENCIA<br> ESTÉTICAMENTE <br> NATURAL</strong></p>
+        <p style="line-height: 100%"><strong>ESPECIALISTA <br> EN RINOPLASTÍA <br> Y CIRUJÍA DE NARIZ<br>LOGRA UNA
+            APARIENCIA<br> ESTÉTICAMENTE <br> NATURAL</strong></p>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -85,36 +92,42 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-<!--presentacion del doctor -->
+  <!--presentacion del doctor -->
   <section class="about-section" style="padding: 5%;">
     <div class="container">
-        <div class="about-wrap row notice">
-            <div class="col-lg-12">
-                <div class="section-heading">
-                    <h2 style="text-align: center;">Dr. Jorge Treviño Garza. Egresado de la Universidad de Monterrey, especialista en Rinología y Cirugía plástica facial.</h2>
-                </div>
-            </div>
-            <div class="col-md-4">  
-            <p class="texto-doc" style="font-size: large;">Es un <b>Otorrinolaringólogo en Monterrey</b> que cuenta con especialidad en Cirugía Plástica Facial, es un médico que constantemente se actualiza con el fín de mejorar sus servicios a los pacientes. 
-                <br><br>
-                Con más de 20 años de práctica, cientos de pacientes satisfechos y participación profesional en el extranjero.
-            </p>
-            </div>
-            <div class="col-md-4">
-                <div class="doctor-img">
-                    <img class="img-doc" src="imagenes/doc.jpg" alt="img">
-                </div>
-            </div>
-            <div class="texto-doc col-md-4">
-                <p style="font-size: large;"> El Otorrino Jorge Treviño se ubica hoy como uno de los más importantes médicos en su especialidad, debido a sus aportes en investigación como en materia de prevención. Monterrey se reconoce en el panorama nacional como ciudad vanguardista en calidad médica.
-                    <br><br>
-                </p>
-              <div class="texto">
-                <b>¡Contáctanos de inmediato y descubre cómo nuestra experiencia pueden marcar la diferencia en tu vida!</b>
-              </div>
-              <br><br>
-            </div>
+      <div class="about-wrap row notice">
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <h2 style="text-align: center;">Dr. Jorge Treviño Garza. Egresado de la Universidad de Monterrey,
+              especialista en Rinología y Cirugía plástica facial.</h2>
+          </div>
         </div>
+        <div class="col-md-4">
+          <p class="texto-doc" style="font-size: large;">Es un <b>Otorrinolaringólogo en Monterrey</b> que cuenta con
+            especialidad en Cirugía Plástica Facial, es un médico que constantemente se actualiza con el fín de mejorar
+            sus servicios a los pacientes.
+            <br><br>
+            Con más de 20 años de práctica, cientos de pacientes satisfechos y participación profesional en el
+            extranjero.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <div class="doctor-img">
+            <img class="img-doc" src="imagenes/doc.jpg" alt="img">
+          </div>
+        </div>
+        <div class="texto-doc col-md-4">
+          <p style="font-size: large;"> El Otorrino Jorge Treviño se ubica hoy como uno de los más importantes médicos
+            en su especialidad, debido a sus aportes en investigación como en materia de prevención. Monterrey se
+            reconoce en el panorama nacional como ciudad vanguardista en calidad médica.
+            <br><br>
+          </p>
+          <div class="texto">
+            <b>¡Contáctanos de inmediato y descubre cómo nuestra experiencia pueden marcar la diferencia en tu vida!</b>
+          </div>
+          <br><br>
+        </div>
+      </div>
     </div>
   </section>
   <!-- Galeria de servicios -->
@@ -127,42 +140,77 @@
           <div class="consultas">
             <p class="text-white text-center"><strong>Consultas</strong> </p>
           </div>
-            <img class="img-galeria" src="imagenes/consultas.jpg"  alt="">
+          <img class="img-galeria" src="imagenes/consultas.jpg" alt="">
         </div>
         <div>
           <div class="consultas">
-          <p class="text-white text-center"><strong>Radiofrecuencia de Cornetes</strong></p>
+            <p class="text-white text-center"><strong>Radiofrecuencia de Cornetes</strong></p>
           </div>
           <img src="imagenes/cornetes.jpg" class="img-galeria" alt="">
         </div>
         <div>
           <div class="consultas">
-          <p class="text-white text-center"><strong>Cirugía Endoscópica para Sinusitis</strong></p>
+            <p class="text-white text-center"><strong>Cirugía Endoscópica para Sinusitis</strong></p>
           </div>
           <img src="imagenes/sinusitis.jpg" class="img-galeria" alt="">
         </div>
         <div>
           <div class="consultas">
-          <p class="text-white text-center"><strong>Endoscopía Nasal</strong></p>
+            <p class="text-white text-center"><strong>Endoscopía Nasal</strong></p>
           </div>
           <img src="imagenes/endoscopia.jpg" class="img-galeria" alt="">
         </div>
         <div>
           <div class="consultas">
-          <p class="text-white text-center"><strong>Otorrinolaringología Pediátrica</strong></p>
+            <p class="text-white text-center"><strong>Otorrinolaringología Pediátrica</strong></p>
           </div>
           <img src="imagenes/pediatrica.jpg" class="img-galeria" alt="">
         </div>
         <div>
           <div class="consultas">
-          <p class="text-white text-center"><strong>Cirugía de Tabique Nasal</strong></p>
+            <p class="text-white text-center"><strong>Cirugía de Tabique Nasal</strong></p>
           </div>
           <img src="imagenes/nasal.jpg" class="img-galeria" alt="">
         </div>
       </div>
     </div>
+    <div class="line"></div>
   </section>
-<!-- Datos y horarios de servicio -->
+
+  <!-- Asociaciones y Certificaciones -->
+  <!-- <section class="container">
+  <div class="row">
+    <div class="col s12">
+      <h1 class="center-align titulo">Asociaciones y Certificaciones</h1>
+
+      <div class="carousel center-align">
+        <div class="carousel-item">
+          <h2 class="subtitulo">Certificados</h2>
+          <div class="linea-division"></div>
+          <p class="sabor">glaseadas</p>
+          <img class="rounded mx-auto d-block" src="imagenes/asociacion1.png" alt="">
+        </div>
+        
+        <div class="carousel-item">
+          <h2 class="subtitulo">Ctificados</h2>
+          <div class="linea-division"></div>
+          <p class="sabor">gseadas</p>
+          <img class="rounded mx-auto d-block" src="imagenes/consulta.jpeg" alt="">
+        </div>
+
+        <div class="carousel-item">
+          <div class="carousel">
+            <h2 class="subtitulo">Certificados</h2>
+            <div class="linea-division"></div>
+            <p class="sabor">glaseadas</p>
+            <img class="rounded mx-auto d-block" src="imagenes/cornetes.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>       
+</section> -->
+
+  <!-- Datos y horarios de servicio -->
   <section class="tra-section padding">
     <div class="container">
       <div class="cta-wrap row">
@@ -191,13 +239,16 @@
         <div class="col-md-6 xs-padding">
           <div class="about-content">
             <div class="section-heading col-lg-12 text-center">
-              <h3 class="texto-doc">El <strong>otorrinolaringólogo en Monterrey Jorge Treviño</strong> es ahora uno de los médicos más
+              <h3 class="texto-doc">El <strong>otorrinolaringólogo en Monterrey Jorge Treviño</strong> es ahora uno de
+                los médicos más
                 importantes en su campo, gracias a su contribución a la investigación y la prevención.</h3>
-              <p class="texto" style="padding: 10px 0px 0;">Da clic en el botón de WhatsApp para contactarnos para saber más sobre el otorrinolaringólogo en
-                  Monterrey.</p>
+              <p class="texto" style="padding: 10px 0px 0;">Da clic en el botón de WhatsApp para contactarnos para saber
+                más sobre el otorrinolaringólogo en
+                Monterrey.</p>
             </div>
             <div>
-              <a class="cta-btn-1  w-50 default-btn d-grid gap-2 col-6 mx-auto text-center">Enviar WhatsApp<span></span></a>
+              <a class="cta-btn-1  w-50 default-btn d-grid gap-2 col-6 mx-auto text-center">Enviar
+                WhatsApp<span></span></a>
             </div>
           </div>
         </div>
@@ -210,16 +261,17 @@
     </div>
   </section>
 
-<!-- footer -->
+  <!-- footer -->
   <footer id="footer">
     <div class="contenedor footer-content text-light">
       <div class="contact-us col-lg-12">
         <h3 class="brand">Dirección del Consultorio</h3>
-        <p>Visitanos para que seas atendido con la mejor atención que te mereces en el <br>Centro de Especialidades Médicas
+        <p>Visitanos para que seas atendido con la mejor atención que te mereces en el <br>Centro de Especialidades
+          Médicas
           1er piso consultorio 126 José Benítez No. 2704 Colonia Obispado Monterrey NL. CP. 64060.</p>
       </div>
     </div>
-    <div class="line"></div>
+    <div class="linefooter"></div>
     <div class="social-media">
       <a href="./" class="social-media-icon">
         <i class='bx bxl-facebook'></i>
@@ -234,12 +286,16 @@
         <i class='bx bxl-whatsapp'></i>
       </a>
     </div>
-  </footer> 
+  </footer>
 
   <!-- boostrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+  <!-- materialize -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+  <!-- javascript -->
+  <script src="main.js"></script>
 </body>
 
 </html>
