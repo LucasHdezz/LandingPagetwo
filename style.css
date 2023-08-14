@@ -565,6 +565,11 @@ a, a:hover {
     
 @media screen and (max-width: 500px){
 
+      .lds-spinner div:nth-child(12) {
+        min-width: 20%;
+      }
+
+    
     .logo-dark{
         max-width: 55%;
         max-height: 20%;     
