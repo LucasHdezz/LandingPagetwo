@@ -139,14 +139,17 @@ header {
   }
 
 #carousel{
-    padding-top: 84px;
+    padding-top: 80.5px;
 }
 
+/* EMPIEZA ANIMACION DE TEXTO SLIDER */
+
+/* AQUI TERMINA ANIMACION DE TEXTO SLIDER */
 .carousel-inner h1{
     font-size: 2rem;
     color: white;
     position: absolute;
-    top: 54%;
+    top: 55%;
     left: 53.4%;
     transform: translate(50%, 50%);
     text-shadow: 0 0 8px rgba(0, 0, 0, 0.623);
@@ -266,20 +269,36 @@ dl, ol, ul {
 .section-doc{
     background-color: #186edfa8;
     padding: 1.5%;
-    max-height: 40%;
+    max-height: 90%;
     color: rgb(250, 252, 253);
     font-size: 1.2rem;
-    min-height: 110px;
     text-align: center;
     text-shadow: 0 0 5px rgb(5, 5, 5);   
 }
 
 .img-doc{
-    width: 325px;
+    width: 355px;
+    position: relative;
+    padding: 0 0px 10px;
 }
 
 .texto-doc{
     text-align: justify;
+}
+
+.texto-docder{
+    text-align: justify;
+}
+
+.texto-publicitario{
+    
+    background-color: #186edfa8;
+    padding: 1%;
+    max-height: 57px;
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+    text-shadow: 0 0 5px rgb(5, 5, 5);
 }
 
 .subtitulo{
@@ -328,6 +347,7 @@ dl, ol, ul {
     background: #fff;
     margin-bottom: -53px;
 }
+
 
 
 .default-btn {
@@ -444,8 +464,9 @@ a, a:hover {
     line-height: 59px;
 }
 
-
-                /* Responsive */
+                                /*                    */
+                                /*   Responsive  780  */
+                                /*                    */
 
 @media screen and (max-width: 780px){
   
@@ -562,6 +583,10 @@ a, a:hover {
         height: 5%;
     }
     }
+
+    
+                                /*   Responsive 500px    */
+                                /*                       */
     
 @media screen and (max-width: 500px){
 
@@ -632,7 +657,7 @@ a, a:hover {
     }
     
     .cta-btn{
-            display: bloc;
+            display: none;         
         }
     
     .section-doc{
@@ -651,19 +676,25 @@ a, a:hover {
         align-items: center;
         }
     
-    .texto-doc{
-        text-align: justify;
-    }
-    
     .texto{
         text-align: center;
+    }
+
+    .texto-docder{
+       max-height: 285px;
     }
 
     .subtitulo{
         text-align: center;
         height: 110px;
         font-size: 30PX;
-        text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    }
+
+    .texto-publicitario{
+        min-height: 150px;
+        font-size: 1.4rem;
+        text-align: center;
+        
     }
 
     .contenedor-galeria{
@@ -685,6 +716,20 @@ a, a:hover {
        width: 135%;
         }
     
+
+    .default-btn{
+        display: block;
+        align-items: center;
+        position:absolute;
+        width: 94%;
+        font-size: 10px;
+    }
+
+    .cta-btn-1{
+        min-width: 94%;
+        font-size: 10px;
+    }
+
     .logo{ 
         position: fixed;
        }
@@ -696,7 +741,7 @@ a, a:hover {
     
     .social-media-icon{
         display: inline-block;
-        width: 15%;
+        width: 16%;
         height: 10%;
     }
     }
