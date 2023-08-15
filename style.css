@@ -681,7 +681,7 @@ a, a:hover {
     }
 
     .texto-docder{
-       max-height: 285px;
+        max-height: 310px;
     }
 
     .subtitulo{
@@ -741,7 +741,7 @@ a, a:hover {
     
     .social-media-icon{
         display: inline-block;
-        width: 16%;
+        width: 17%;
         height: 10%;
     }
     }
