@@ -142,9 +142,6 @@ header {
     padding-top: 80.5px;
 }
 
-/* EMPIEZA ANIMACION DE TEXTO SLIDER */
-
-/* AQUI TERMINA ANIMACION DE TEXTO SLIDER */
 .carousel-inner h1{
     font-size: 2rem;
     color: white;
@@ -272,7 +269,6 @@ dl, ol, ul {
     max-height: 90%;
     color: rgb(250, 252, 253);
     font-size: 1.2rem;
-    text-align: center;
     text-shadow: 0 0 5px rgb(5, 5, 5);   
 }
 
@@ -314,7 +310,7 @@ dl, ol, ul {
     background: #0639699d;
 }
 
-.consultas{
+.subtitulos{
     justify-content: space-evenly;
     width: 435px;
     height: 30px;
@@ -537,6 +533,12 @@ a, a:hover {
             display: block;
         }
     
+    .section-doc{
+        min-height: 200%;
+        font-size: rem;
+        text-align: center; 
+    }
+
     .img-doc{
         width: 100%;
         align-items: center;
@@ -662,14 +664,18 @@ a, a:hover {
     
     .section-doc{
             background-color: #186edfa8;
-            padding: 1.5%;
+            padding: 0%;
             max-height: 95%;
             font-size: 1.2rem;
             min-height: 110px;
             text-align: center;
            
         }
-        
+    
+    .presentacion{
+        padding: 1% 1% 2% 1%;
+        font-size: 1.5rem;
+    }
 
     .img-doc{
         width: 100%;
@@ -684,20 +690,25 @@ a, a:hover {
         max-height: 310px;
     }
 
+    .texto-publicitario{
+        min-height: 90px;
+        font-size: 1.1rem;
+        text-align: center; 
+    }
+
     .subtitulo{
+        padding: 4%;
         text-align: center;
         height: 110px;
         font-size: 30PX;
     }
 
-    .texto-publicitario{
-        min-height: 150px;
-        font-size: 1.4rem;
-        text-align: center;
-        
-    }
+    .subtitulos{
+        width: 135%;
+         }
 
     .contenedor-galeria{
+        padding: 5% 2%;
         width: 75%;
         }  
     
@@ -712,9 +723,9 @@ a, a:hover {
         padding: 5%;
     }
 
-    .consultas{
-       width: 135%;
-        }
+    .tra-section{
+        padding: 20% 0% 35% 0%; 
+    }
     
 
     .default-btn{
@@ -725,8 +736,12 @@ a, a:hover {
         font-size: 10px;
     }
 
+    .about-section{
+        padding: 20% 0% 35% 0%; 
+    }
+
     .cta-btn-1{
-        min-width: 94%;
+        min-width: 93.7%;
         font-size: 10px;
     }
 
