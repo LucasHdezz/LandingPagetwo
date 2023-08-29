@@ -467,146 +467,21 @@ a, a:hover {
 
 @media screen and (max-width: 780px){
   
-    header {
-       
-        height: 10%;
-    }
-
-    .logo-dark{
-        max-width: 55%;
-        max-height: 20%;     
-    }
-
-
-    ul{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: #920dac;
-        top: 90px;
-        left: -200%;
-    }
-
-    .default-btn{
-        display: none;
-    }
-
-    .checkbtn{
-        display: none;
-
-    }
-
-    #carousel{
-        padding-top: 20%;
-    }
-
-    .carousel-item{
-        min-height: 650px;
-        background-size: cover;
-      }
-
-    .carousel-inner h1{
-        font-size: 1.5rem;
-        top: 80%;
-        left: 50%;
-        text-align: center;
-        transform: translate(-50%, -50%);
-        text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
-    }
-    
-    .carousel-item p{
-        font-size: 1.2rem;
-        top: 75%;
-        left: 50%;
-        text-align: center;
-        transform: translate(-50%, -50%);
-        text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
-    }
-    .nav li a{
-        padding: 85%;
-        width: 200%;
-        height: 20%;   
-        font-size: 88%;
-        
-    }
-    
-    .cta-btn{
-            display: block;
-        }
-    
-    .section-doc{
-        min-height: 200%;
-        font-size: rem;
-        text-align: center; 
-    }
-
-    .img-doc{
-        width: 100%;
-        align-items: center;
-        }
-    
-    .texto-doc{
-        text-align: justify;
-    }
-    
-    .texto{
-        text-align: center;
-    }
-
-    .contenedor-galeria{
-        width: 75%;
-        }  
-    
-    .img-galeria{
-            padding: 2%;
-            width: 135%;
-            height: 80%;
-            cursor: pointer;
-        }
-
-    .consultas{
-       width: 135%;
-        }
-    
-    .logo{
-        width: 100%;
-        min-height: 0 100%;
-        padding-right: 50%;
-
-       }
-    
-    .social-media{
-        width: 95%;
-        justify-content: center;
-    }
-    
-    .social-media-icon{
-        display: inline-block;
-        width: 9%;
-        height: 5%;
-    }
-    }
-
-    
-                                /*   Responsive 500px    */
-                                /*                       */
-    
-@media screen and (max-width: 500px){
-
       .lds-spinner div:nth-child(12) {
         min-width: 20%;
       }
 
     
     .logo-dark{
-        max-width: 55%;
-        max-height: 20%;     
+        max-width: 78%;
+        max-height: 200%;     
     }
 
     
     .checkbtn{
         display: block;
-
+        max-width: 10%;
+        margin-top: 1%;
     }
 
     menu{
@@ -614,7 +489,7 @@ a, a:hover {
         width: 100%;
         height: 100%;
         background: #920dac;
-        top: 400%;
+        top: 100%;
         right: 0px;
         /* left: -100%; */
         text-align: center;
@@ -651,6 +526,207 @@ a, a:hover {
         transform: translate(-50%, -50%);
         text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
     }
+
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #920dac;
+        top: 90px;
+        left: -200%;
+    }
+
+    .nav li a{
+        padding: 45%;
+        width: 100%;
+        height: 10%;   
+        font-size: 48%;
+        
+    }
+    
+    .cta-btn{
+            display: none;         
+        }
+    
+    .section-doc{
+            background-color: #186edfa8;
+            padding: 0%;
+            max-height: 95%;
+            font-size: 1.2rem;
+            min-height: 110px;
+            text-align: center;
+           
+        }
+    
+    .presentacion{
+        padding: 1% 1% 2% 1%;
+        font-size: 1.5rem;
+    }
+
+    .img-doc{
+        width: 100%;
+        align-items: center;
+        }
+    
+    .texto{
+        text-align: center;
+    }
+
+    .texto-docder{
+        max-height: 310px;
+    }
+
+    .texto-publicitario{
+        min-height: 90px;
+        font-size: 1.1rem;
+        text-align: center; 
+    }
+
+    .subtitulo{
+        padding: 4%;
+        text-align: center;
+        height: 110px;
+        font-size: 30PX;
+    }
+
+    .subtitulos{
+        width: 135%;
+         }
+
+    .contenedor-galeria{
+        padding: 5% 2%;
+        width: 75%;
+        }  
+    
+    .img-galeria{
+            padding: 2%;
+            width: 135%;
+            height: 80%;
+            cursor: pointer;
+        }
+
+    .line{
+        padding: 5%;
+    }
+
+    .tra-section{
+        padding: 20% 0% 35% 0%; 
+    }
+    
+
+    .default-btn{
+        display: block;
+        align-items: center;
+        position:absolute;
+        width: 94%;
+        font-size: 10px;
+    }
+
+    .about-section{
+        padding: 20% 0% 35% 0%; 
+    }
+
+    .cta-btn-1{
+        min-width: 93.7%;
+        font-size: 10px;
+    }
+
+    .logo{ 
+        position: fixed;
+       }
+    
+    .social-media{
+        width: 95%;
+        justify-content: center;
+    }
+    
+    .social-media-icon{
+        display: inline-block;
+        width: 17%;
+        height: 10%;
+    }
+    }
+
+    
+                                /*   Responsive 500px    */
+                                /*                       */
+    
+@media screen and (max-width: 500px){
+
+    header { 
+        height: 10%;
+    }
+
+      .lds-spinner div:nth-child(12) {
+        min-width: 20%;
+      }
+
+    
+    .logo-dark{
+        max-width: 58%;
+        max-height: 80%;     
+    }
+
+    
+    .checkbtn{
+        display: block;
+        max-width: 10%;
+        margin-top: 1%;
+
+    }
+
+    menu{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: #920dac;
+        top: 100%;
+        right: 0px;
+        /* left: -100%; */
+        text-align: center;
+        transition: all .5s;
+    }
+    
+    .default-btn{
+        display: none;
+    }
+
+    #carousel{
+        padding-top: 10%;
+    }
+
+    .carousel-item{
+        min-height: 320px;
+        background-size: cover;
+      }
+
+    .carousel-inner h1{
+        font-size: 1.5rem;
+        top: 80%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    }
+    
+    .carousel-item p{
+        font-size: 1.2rem;
+        top: 75%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    }
+
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #920dac;
+        top: 90px;
+        left: -200%;
+    }
+
     .nav li a{
         padding: 45%;
         width: 100%;
