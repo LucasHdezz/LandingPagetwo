@@ -84,6 +84,11 @@
       opacity: 0;
     }
   }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
   
   
 .loader{
@@ -130,7 +135,8 @@ header {
   }
 
 .logo-dark{
-    width: 200px;
+    width: 100px;
+    margin-top: 5%;
 }
 
 .carousel-item{
@@ -162,6 +168,18 @@ header {
     text-shadow: 0 0 8px rgba(0, 0, 0, 0.623);
 }
 
+.mainmenu{
+    margin-top: -5.8%;
+    margin-left: 300px;
+}
+
+.navbar {
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
 
 .nav li a{
     background:white;
@@ -173,12 +191,12 @@ header {
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
+    transition: all ease-in-out 260ms;
 }
 
 .nav li a:hover{
     background-color: rgb(68, 38, 238);
-    color: white;
-    
+    color: white;    
 }
 
 .nav > li {
@@ -195,6 +213,9 @@ header {
     display: block;
 }
 
+.cta-btn{
+    margin-top: -62px; 
+}
 
 .checkbtn{
     font-size: 33px;
@@ -466,50 +487,56 @@ a, a:hover {
                                 /*                    */
 
 @media screen and (max-width: 780px){
-  
-      .lds-spinner div:nth-child(12) {
-        min-width: 20%;
+
+                   /* menu de navegacion */
+    .navbar {
+        flex-direction: column;
+        margin-top: 7%;
+        margin-left: 59%;
       }
 
-    
-    .logo-dark{
-        max-width: 78%;
-        max-height: 200%;     
-    }
-
-    
-    .checkbtn{
-        display: block;
-        max-width: 10%;
-        margin-top: 1%;
-    }
-
-    menu{
-        position: fixed;
-        width: 100%;
-        height: 100%;
-        background: #920dac;
-        top: 100%;
-        right: 0px;
-        /* left: -100%; */
-        text-align: center;
-        transition: all .5s;
-    }
-    
-    .default-btn{
+      .mainmenu {
         display: none;
-    }
+        flex-direction: column;
+        width: 100%;
+        margin: -15%;
+        padding: 10px 10px;
+        text-align: center;
+        background-color: #186edfbd;
+      }
+    
+      .mainmenu.active {
+        display: block;
+      }
+    
+      .mainmenu ul {
+        padding: 10px 0;
+      }
+    
+      .mainmenu ul li {
+        margin: 10px 0;
+      }
+    
+      .checkbtn {
+        display: block;
+        cursor: pointer;
+        margin-top: 4%;
+      }
+    
+      .menu-wrap {
+        flex-direction: column;
+      }
 
-    #carousel{
-        padding-top: 10%;
+      .cta-btn{
+        display: none;         
     }
-
-    .carousel-item{
-        min-height: 320px;
+                    /* carrusel */
+      .carousel-item{
+        min-height: 323px;
         background-size: cover;
       }
 
-    .carousel-inner h1{
+      .carousel-inner h1{
         font-size: 1.5rem;
         top: 80%;
         left: 50%;
@@ -517,7 +544,7 @@ a, a:hover {
         transform: translate(-50%, -50%);
         text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
     }
-    
+
     .carousel-item p{
         font-size: 1.2rem;
         top: 75%;
@@ -527,27 +554,8 @@ a, a:hover {
         text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
     }
 
-    ul{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: #920dac;
-        top: 90px;
-        left: -200%;
-    }
+                /* Presentacion del doctor */
 
-    .nav li a{
-        padding: 45%;
-        width: 100%;
-        height: 10%;   
-        font-size: 48%;
-        
-    }
-    
-    .cta-btn{
-            display: none;         
-        }
-    
     .section-doc{
             background-color: #186edfa8;
             padding: 0%;
@@ -581,6 +589,8 @@ a, a:hover {
         font-size: 1.1rem;
         text-align: center; 
     }
+    
+                 /* Galeria de servicios */
 
     .subtitulo{
         padding: 4%;
@@ -642,199 +652,7 @@ a, a:hover {
     
     .social-media-icon{
         display: inline-block;
-        width: 17%;
-        height: 10%;
+        width: 14%;
     }
-    }
-
-    
-                                /*   Responsive 500px    */
-                                /*                       */
-    
-@media screen and (max-width: 500px){
-
-    header { 
-        height: 10%;
-    }
-
-      .lds-spinner div:nth-child(12) {
-        min-width: 20%;
-      }
-
-    
-    .logo-dark{
-        max-width: 58%;
-        max-height: 80%;     
-    }
-
-    
-    .checkbtn{
-        display: block;
-        max-width: 10%;
-        margin-top: 1%;
-
-    }
-
-    menu{
-        position: fixed;
-        width: 100%;
-        height: 100%;
-        background: #920dac;
-        top: 100%;
-        right: 0px;
-        /* left: -100%; */
-        text-align: center;
-        transition: all .5s;
-    }
-    
-    .default-btn{
-        display: none;
-    }
-
-    #carousel{
-        padding-top: 10%;
-    }
-
-    .carousel-item{
-        min-height: 320px;
-        background-size: cover;
-      }
-
-    .carousel-inner h1{
-        font-size: 1.5rem;
-        top: 80%;
-        left: 50%;
-        text-align: center;
-        transform: translate(-50%, -50%);
-        text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
-    }
-    
-    .carousel-item p{
-        font-size: 1.2rem;
-        top: 75%;
-        left: 50%;
-        text-align: center;
-        transform: translate(-50%, -50%);
-        text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
-    }
-
-    ul{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: #920dac;
-        top: 90px;
-        left: -200%;
-    }
-
-    .nav li a{
-        padding: 45%;
-        width: 100%;
-        height: 10%;   
-        font-size: 48%;
-        
-    }
-    
-    .cta-btn{
-            display: none;         
-        }
-    
-    .section-doc{
-            background-color: #186edfa8;
-            padding: 0%;
-            max-height: 95%;
-            font-size: 1.2rem;
-            min-height: 110px;
-            text-align: center;
-           
-        }
-    
-    .presentacion{
-        padding: 1% 1% 2% 1%;
-        font-size: 1.5rem;
-    }
-
-    .img-doc{
-        width: 100%;
-        align-items: center;
-        }
-    
-    .texto{
-        text-align: center;
-    }
-
-    .texto-docder{
-        max-height: 310px;
-    }
-
-    .texto-publicitario{
-        min-height: 90px;
-        font-size: 1.1rem;
-        text-align: center; 
-    }
-
-    .subtitulo{
-        padding: 4%;
-        text-align: center;
-        height: 110px;
-        font-size: 30PX;
-    }
-
-    .subtitulos{
-        width: 135%;
-         }
-
-    .contenedor-galeria{
-        padding: 5% 2%;
-        width: 75%;
-        }  
-    
-    .img-galeria{
-            padding: 2%;
-            width: 135%;
-            height: 80%;
-            cursor: pointer;
-        }
-
-    .line{
-        padding: 5%;
-    }
-
-    .tra-section{
-        padding: 20% 0% 35% 0%; 
-    }
-    
-
-    .default-btn{
-        display: block;
-        align-items: center;
-        position:absolute;
-        width: 94%;
-        font-size: 10px;
-    }
-
-    .about-section{
-        padding: 20% 0% 35% 0%; 
-    }
-
-    .cta-btn-1{
-        min-width: 93.7%;
-        font-size: 10px;
-    }
-
-    .logo{ 
-        position: fixed;
-       }
-    
-    .social-media{
-        width: 95%;
-        justify-content: center;
-    }
-    
-    .social-media-icon{
-        display: inline-block;
-        width: 17%;
-        height: 10%;
-    }
-    }
+}
     
