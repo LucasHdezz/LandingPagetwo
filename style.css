@@ -495,24 +495,43 @@ a, a:hover {
     @keyframes lds-spinner {
     0% {
       opacity: 1;
-      height: 20%;
+      height: 10%;
+      
     }
     100% {
       opacity: 0;
-      height: 20%;
+      height: 10%;
     }
   }
   
 
                    /* menu de navegación */
+    .logo-dark{
+    width: 0px;
+    margin-top: 2%;
+    }
+
+    .submen{
+       margin-right: -50%;
+    }
 
     .nav li a{
+       align-items: center;
+       width: -100%;
+       margin-left: 2%;
+    }
+
+    .nav li a{
+        cursor: pointer;
         border-radius: 10px;
-        text-align: start;
+        text-align: center;
+        align-items: center;
+        font-size: 11px;
         margin-top: -4%;
     }
 
     .nav li li a{
+        cursor: pointer;
         background-color: #2494c0;
         color: white;
         text-align: center;
@@ -539,7 +558,7 @@ a, a:hover {
         padding: 10px 10px;
         border-radius: 10px;
         text-align: center;
-        background-color: #186edfbd;
+        background-color: #2494c0;
       }
     
       .mainmenu.active {
