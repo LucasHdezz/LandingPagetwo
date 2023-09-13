@@ -550,6 +550,10 @@ a, a:hover {
         border-radius: 10px;
       }
 
+      .nav1 {
+        width: 95%;
+      }
+
       .mainmenu {
         display: none;
         flex-direction: column;
