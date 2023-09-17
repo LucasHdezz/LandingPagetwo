@@ -206,7 +206,7 @@ header {
 }
 
 .nav li ul{
-    display:none;
+    display: none;
     position: absolute;
     min-width: 100px;
 }
@@ -491,19 +491,16 @@ a, a:hover {
 @media screen and (max-width: 780px){
 
                     /*  loading  */
-
     @keyframes lds-spinner {
-    0% {
-      opacity: 1;
-      height: 10%;
-      
+        0% {
+        width: 0px;
+        opacity: 1;
+        }
+        100% {
+        opacity: 0;
+        margin-top: -15%;
+        }
     }
-    100% {
-      opacity: 0;
-      height: 10%;
-    }
-  }
-  
 
                    /* menu de navegación */
     .logo-dark{
@@ -552,6 +549,21 @@ a, a:hover {
 
       .nav1 {
         width: 95%;
+      }
+
+      li ul{
+        margin-left: -5%; 
+        margin-top: -36%;
+      }
+
+      li ul{
+        margin-left: -5%; 
+        margin-top: -31%
+      }
+
+      .nav3{
+        margin-left: -5%; 
+        margin-top: -35%
       }
 
       .mainmenu {
