@@ -512,6 +512,15 @@ a, a:hover {
        margin-right: -50%;
     }
 
+    .nav li ul{
+        display: none;
+        position: absolute;
+    }
+    
+    .nav li:hover > ul{
+        display: block;
+    }
+    
     .nav li a{
        align-items: center;
        width: -100%;
@@ -545,10 +554,6 @@ a, a:hover {
         margin-top: 8%;
         margin-left: 55%;
         border-radius: 10px;
-      }
-
-      .nav1 {
-        width: 95%;
       }
 
       .submenu1 {
