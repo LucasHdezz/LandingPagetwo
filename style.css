@@ -551,19 +551,19 @@ a, a:hover {
         width: 95%;
       }
 
-      li ul{
-        margin-left: -5%; 
-        margin-top: -36%;
+      .submenu1 {
+        margin-left: -7%; 
+        margin-top: -37%;
       }
 
-      li ul{
+      .submenu2{
         margin-left: -5%; 
-        margin-top: -31%
+        margin-top: -32%
       }
 
-      .nav3{
+      .submenu3{
         margin-left: -5%; 
-        margin-top: -35%
+        margin-top: -32%
       }
 
       .mainmenu {
