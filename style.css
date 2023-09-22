@@ -503,6 +503,12 @@ a, a:hover {
     }
   }
 
+  .loader{
+    width: 150%; 
+    margin-left: -32%;
+  }
+
+  
                    /* menu de navegación */
     .logo-dark{
     width: 0px;
