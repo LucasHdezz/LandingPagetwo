@@ -491,22 +491,22 @@ a, a:hover {
 @media screen and (max-width: 780px){
 
                     /*  loading  */
-      @keyframes lds-spinner {
-    0% {
-      opacity: 1;
-      margin-top: -10%;
+        @keyframes lds-spinner {
+        0% {
+        opacity: 1;
+        margin-top: -10%;
 
+        }
+        100% {
+        opacity: 0;
+        margin-top: -10%;
+        }
     }
-    100% {
-      opacity: 0;
-      margin-top: -10%;
-    }
-  }
 
-  .loader{
-    width: 150%; 
-    margin-left: -32%;
-  }
+    .loader{
+        width: 150%; 
+        margin-left: -32%;
+    }
 
   
                    /* menu de navegación */
