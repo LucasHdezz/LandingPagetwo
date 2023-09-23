@@ -194,6 +194,7 @@ header {
     font-weight: 600;
     text-transform: uppercase;
     transition: all ease-in-out 260ms;
+    cursor: pointer;
 }
 
 .nav li a:hover{
@@ -522,6 +523,7 @@ a, a:hover {
     .nav li ul{
         display: none;
         position: absolute;
+        cursor: pointer;
     }
     
     .nav li:hover > ul{
@@ -530,8 +532,9 @@ a, a:hover {
     
     .nav li a{
        align-items: center;
-       width: -100%;
-       margin-left: 2%;
+       width: 94%;
+       margin-left: 3%;
+       cursor: pointer;
     }
 
     .nav li a{
@@ -541,6 +544,7 @@ a, a:hover {
         align-items: center;
         font-size: 11px;
         margin-top: -4%;
+        cursor: pointer;
     }
 
     .nav li li a{
@@ -554,11 +558,17 @@ a, a:hover {
         font-size: 10px;
         margin-left: -93%;
         height: 50px;
+        cursor: pointer;
+    }
+
+    .home{
+        margin-left: 50%;
+        margin-top: 150%;
     }
 
     .navbar {
         flex-direction: column;
-        margin-top: 8%;
+        margin-top: 12%;
         margin-left: 55%;
         border-radius: 10px;
       }
